@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <title>Formulario</title>
+</head>
+
+<body>
+    <form>
+
+        <legend class="nomeP">Pizzaria GuTheus</legend>
+        <br>
+        <div class="ps">
+            <label>Pizza Salgada:</label>
+            <select>
+          <option value="" selected>Escolha</option>
+          <option value="Mussarela">Mussarerla</option>
+          <option value="Calabresa">Calabresa</option>
+          <option value="Portuguesa">Portuguesa</option>
+          <option value="Baiana">Baiana</option>
+          <option value="Bacon">Bacon</option>
+          <option value="NPS">Nenhuma pizza salgada</option>
+      </select><br>
+            <div class="pd">
+                <label>Pizza Doce:</label>
+                <select>
+                <option value="" selected>Escolha</option>
+                <option value="Romeu e Julieta">Romeu e Julieta</option>
+                <option value="Brigadeiro">Brigadeiro</option>
+                <option value="Chocolate branco ">Chocolate branco</option>
+                <option value="Banana c/ canela">Banana c/ canela</option>
+                <option value="Nutella c/ morango">Nutella c/ morango</option>
+                <option value="NPD">Nenhuma pizza doce</option>
+            </select><br>
+            </div>
+            <br>
+            <div class="beb">Bebidas:
+                <br>
+                <input type="checkbox" value="Agua">Agua
+                <input type="checkbox" value="Coca Cola">Coca Cola
+                <input type="checkbox" value="Guarana">Guarana
+                <input type="checkbox" value="Cerveja">Cerveja
+                <input type="checkbox" value="Suco">Suco
+                <input type="checkbox" value="Nenhum">Nenhum
+            </div>
+            <br>
+            <div class="fp">Forma de pagamento:
+                <br>
+                <input type="radio" name="sexo" value="Cartao de credito">Cartao de credito
+                <input type="radio" name="sexo" value="Cartao de debito">Cartao de debito
+                <input type="radio" name="sexo" value="Pix">Pix
+                <input type="radio" name="sexo" value="Dinheiro">Dinheiro
+            </div>
+            <br>
+            <button type="button" onclick="alert('Pedido feito')">
+      <b>Pedir</b>
+      </button>
+
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(assets/images/fundo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nomeP {
+    color: black;
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 32px;
+    text-align: center;
+}
+
+.ps {
+    color: aliceblue;
+}
+
+.pd {
+    color: aliceblue;
+}
+
+.coment {
+    color: aliceblue;
+}
+
+.beb {
+    color: aliceblue;
+}
+
+.fp {
+    color: aliceblue;
+}
+
+.button {
+    background: rgb(255, 255, 255);
+    color: #000;
+    width: 140px;
+    font-size: 16px;
+    margin-left: 105px;
+    height: 35px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
